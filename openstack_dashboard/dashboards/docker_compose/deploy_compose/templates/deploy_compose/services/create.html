@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Create An Service" %}{% endblock %}
+
+{% block main %}
+    {% include 'docker_compose/deploy_compose/services/create_service.html' %}
+{% endblock %}
